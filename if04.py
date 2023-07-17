@@ -1,11 +1,18 @@
 def main(a,b,c):
-    """
-    Find number of positive numbers there are in the given numbers.
-    Args:
-        a: integer
-        b: integer
-        c: integer
-    returns:
-        integer: the number of positive numbers in the given numbers
-    """
-    return
+    if a>0 and b>0 and c>0:
+        print('3ta')
+    if a<0 and b>0 and c>0:
+        print('2ta')
+    if a>0 and b<0 and c>0:
+        print('2ta')
+    if a>0 and b>0 and c<0:
+        print('1ta')
+    if a<0 and b<0 and c>0:
+        print('1ta')
+    if a>0 and b<0 and c<0:
+        print('1ta')
+    if a<0 and b>0 and c<0:
+        print('1ta')
+    if a==0 and b==0 and c==0:
+        print('0ta')
+print(main(2,5,6))
