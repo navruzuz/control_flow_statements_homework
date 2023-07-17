@@ -1,10 +1,9 @@
 def main(a):
-    """
-    If the number is positive, increase it to 1,if the number is negative decrease it to 2.
-    If it is 0, assign 10.
-    Args:
-        a: integer
-    Returns:
-        a: integer
-    """
-    return
+    if a>0:
+        print(a+1)
+        if a==0:
+            print(10)
+    else:
+        print(a-1)
+    return  a      
+print(main(-5))
