@@ -1,16 +1,14 @@
 def main(a,b,c):
-    """
-    Find how many positive and how many negative numbers there are in the given numbers.
-    check the following conditions:
-    "there are a lot of positive numbers",
-    "there are a lot of negative numbers"
-
-    Args:
-        a: first number
-        b: second number
-        c: third number
-
-    Returns:
-        string: string with the result
-    """
-    return
+    if a>0 :
+        print('a musbat son')
+        if b>0:
+            print('b musbat son')
+        else:
+            print(' b manfiy son')
+            if c>0:
+                print('c musbat son')
+            else:
+                print('c manfiy son')
+    else:
+        print('1ta manfiy son')
+print(main(3,-8,6))
